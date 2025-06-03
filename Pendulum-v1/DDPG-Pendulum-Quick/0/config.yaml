@@ -1,0 +1,14 @@
+after_training: null
+agent: tonic.torch.agents.DDPG()
+before_training: null
+checkpoint: last
+environment: tonic.environments.Gym('Pendulum-v1',max_episode_steps=50)
+environment_name: null
+header: import tonic.torch; import tonic.environments; import gym
+name: DDPG-Pendulum-Quick
+parallel: 1
+path: null
+seed: 0
+sequential: 20
+test_environment: null
+trainer: null
