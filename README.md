@@ -1,5 +1,5 @@
 To run the training:
-  **cd cd "D:\your_full_path\RL2_pendulum\tonic (powershell terminal)
+  ** cd "D:\your_full_path\RL2_pendulum\tonic (powershell terminal)
   python -m tonic.train --header "import tonic.torch; import tonic.environments; import gym" --agent "tonic.torch.agents.DDPG()" --environment "tonic.environments.Gym('Pendulum-v1',max_episode_steps=50)" --name "DDPG-Pendulum-Quick" --seed 0 --parallel 1 --sequential 20
 **
 
